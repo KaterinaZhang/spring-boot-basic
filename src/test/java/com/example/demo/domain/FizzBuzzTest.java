@@ -12,6 +12,7 @@ public class FizzBuzzTest {
 
     @Test
     public void should_get_fizz_when_given_6(){
+        //
         String result = FizzBuzz.run(6);
         assertEquals(FIZZ, result);
     }
